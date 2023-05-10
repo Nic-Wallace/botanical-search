@@ -1,5 +1,5 @@
 // questions for quiz
-const quizData = [
+const quizQs = [
     {
         question: "How many arches can you find in the picture?",
         a: "6",
@@ -80,5 +80,32 @@ function loadQuestion() {
     questionD.innerText = currentQuestionInput.d
 }
 function uncheckAnswers() {
-    answerHTMLs.forEach(answerHTML => answerHTML.checked = false)
+    answerHTML.forEach(answerHTML => answerHTML.checked = false)
 }
+
+function getSelected() {
+    let answer
+    answerHTML.forEach(answerHTML => {
+        if(answerHTML.checked) {
+            answer = answerHTML.id
+        }
+    })
+    return answer
+}
+nextButton.addEventListener("click", () => {
+    const answer = getSelected()
+    if(answer) {
+        if(answer === quizQs[currentQuestion].correct) {
+            score++
+        }
+        currentQuestion++
+        if(currentQuestion < quizQs.length) {
+            loadQuestion()
+        } else {
+            quiz.innerHTML = `
+            <h2>You answered ${score}/${quizQs.length} questions correctly</h2>
+            <button onclick="location.reload()">Next</button>
+            `
+        }
+    }
+})
