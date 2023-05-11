@@ -1,0 +1,11 @@
+body {
+    background-image: url("../images/background-butterflies.jpg");
+}
+
+#img {
+    max-width: 400px;
+}
+
+#quiz {
+    background-color: rgba(255,255,255,0.75);
+}
