@@ -21,7 +21,7 @@ const quizQs = [
     },
     {
         question: "How many flamingos can you find in the picture?",
-        image: "arches.jpg",
+        image: "flamingos.jpg",
         a: "26",
         b: "35",
         c: "29",
@@ -30,7 +30,7 @@ const quizQs = [
     },
     {
         question: "How many purple flowers can you find in the picture?",
-        image: "arches.jpg",
+        image: "flowers.jpg",
         a: "9",
         b: "10",
         c: "11",
@@ -39,7 +39,7 @@ const quizQs = [
     },
     {
         question: "How many people wearing the colour red can you find in the picture?",
-        image: "arches.jpg",
+        image: "people.jpg",
         a: "9",
         b: "6",
         c: "12",
@@ -48,7 +48,7 @@ const quizQs = [
     },
     {
         question: "How many vertical gardens can you find in the picture?",
-        image: "arches.jpg",
+        image: "vertical-gardens.jpg",
         a: "13",
         b: "14",
         c: "15",
@@ -57,12 +57,21 @@ const quizQs = [
     },
     {
         question: "How many waterfalls can you find in the picture?",
-        image: "arches.jpg",
+        image: "waterfalls.jpg",
         a: "8",
         b: "9",
         c: "10",
         d: "11",
         correct: "c",
+    },
+    {
+        question: "How many lilypads can you find in the picture?",
+        image: "lilypads.jpg",
+        a: "29",
+        b: "30",
+        c: "31",
+        d: "32",
+        correct: "d",
     },
 ];
 
@@ -79,9 +88,17 @@ const image = document.getElementById("img");
 let currentQuestion = 0;
 let score = 0;
 
-loadQuestion(); // put in function down
+function startQuiz() {
+    shuffleQuestions();
+    loadQuestion();
+}
 
-//start, shuffle q's, call loadQuestion
+function shuffleQuestions(quizQs) {
+    for(let i = quizQs.length; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i+1));
+      [quizQs[i], quizQs[j]] = [quizQs[j], quizQs[i]];
+    }
+}
 
 // loads the next question
 function loadQuestion() {
@@ -111,9 +128,10 @@ function getSelected() {
     return answer;
 }
 
-// 
+// checks for correct answer when next button is clicked
 nextButton.addEventListener("click", checkAnswer);
 
+// checks for correct answer and adds to score if correct
 function checkAnswer() {
     const answer = getSelected();
     if (answer) {
@@ -129,13 +147,13 @@ function incrementScore() {
     score += 1;
 }
 
-//
+// if there are more questions, load next question, if not, stop timer and show score
 function proceedQuiz() {
-    currentQuestion += 1; //grabs next question number
+    currentQuestion += 1;
     if (currentQuestion < quizQs.length) {
         loadQuestion();
     } else { 
-        //add stop timer here
+        clearInterval(timerInterval);
         quiz.innerHTML = `
         <h2>You answered ${score}/${quizQs.length} questions correctly</h2>
         <button onclick="location.reload()">Restart</button>
