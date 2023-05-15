@@ -14,7 +14,7 @@ body {
     background-color: rgba(255,255,255,0.85);
     width: 700px;
     padding: 20px;
-    border: 5px solid orange;
+    border: 5px solid #FFA500;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -25,9 +25,45 @@ body {
 }
 
 .heading {
-    background-color: orange;
+    background-color: #FFA500;
     padding: 10px;
-    border: 2px solid orange;
+    border: 2px solid #FFA500;
     border-radius: 15px;
     font-family: Source Serif Pro;
+}
+
+#home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.question-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#timer {
+    font-family: Source Serif Pro;
+    background-color: #FFA500;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#click-here {
+    text-decoration: none;
+    color: #FF7900;
+    font-weight: bold;
+}
+
+#next-btn {
+    background-color: #FFA500;
+    font-family: Source Serif Pro;
+    border: 2px solid #FFA500;
+    border-radius: 15px;
+    font-size: larger;
 }
