@@ -67,3 +67,21 @@ body {
     border-radius: 15px;
     font-size: larger;
 }
+
+li {
+    list-style-type: none;
+    margin: auto;
+}
+
+#answer-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+}
