@@ -11,12 +11,12 @@ const quizQs = [
         correct: "c",
     },
     {
-        question: "How many orange butterflies can you find in the picture?",
-        image: "butterflies.jpeg",
-        a: "9",
-        b: "10",
-        c: "11",
-        d: "12",
+        question: "How many lupin flowers and buds can you find in the picture?",
+        image: "lupins.jpg",
+        a: "13",
+        b: "14",
+        c: "15",
+        d: "16",
         correct: "b",
     },
     {
