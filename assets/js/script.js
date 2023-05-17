@@ -1,4 +1,3 @@
-/* jshint esversion: 11 */
 // questions for quiz
 const quizQs = [
     {
@@ -88,8 +87,10 @@ const image = document.getElementById("img");
 let currentQuestion = 0;
 let score = 0;
 
+loadQuestion(); //will not work when i put it in the startQuiz function???
+
 function startQuiz() {
-    shuffleQuestions();
+    shuffleQuestions(); //shuffle doesn't work???
     loadQuestion();
 }
 
@@ -142,7 +143,7 @@ function checkAnswer() {
     }
 }
 
-//
+// adds one to score tally
 function incrementScore() {
     score += 1;
 }
