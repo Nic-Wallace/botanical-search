@@ -12,11 +12,11 @@ const image = document.getElementById("img");
 let currentQuestion = 0;
 let score = 0;
 
-startQuiz(); 
+startQuiz();
 
 // starts quiz: shuffles and loads questions
 function startQuiz() {
-    shuffleQuestions(); 
+    shuffleQuestions();
     loadQuestion();
 }
 
@@ -77,10 +77,13 @@ function proceedQuiz() {
     currentQuestion += 1;
     if (currentQuestion < quizQs.length) {
         loadQuestion();
-    } else { 
+    } else {
         clearInterval(timerInterval);
+        let totalTime = timeDisplay();
+        timer.style.display = "none";
         quiz.innerHTML = `
         <h2>You got ${score}/${quizQs.length} questions correct!</h2>
+        <h3>It took you ${totalTime}.</h3>
         <button onclick="location.reload()">Restart</button>
         `;
     }
@@ -88,31 +91,30 @@ function proceedQuiz() {
 
 const timer = document.getElementById('timer');
 let timerInterval;
+let second = 0, minute = 0, hour = 0;
 
-startTimer = () => {
-    let second = 0,
-      minute = 0,
-      hour = 0;
-  
-    timerInterval = setInterval(function () {
-      timer.classList.toggle('odd');
-  
-      timer.innerHTML =
+function timeDisplay() {
+    return timer.innerHTML =
         (hour ? hour + ':' : '') +
         (minute < 10 ? '0' + minute : minute) +
         ':' +
         (second < 10 ? '0' + second : second);
+}
 
-      second++;
-  
-      if (second == 60) {
-        minute++;
-        second = 0;
-      }
-  
-      if (minute == 60) {
-        hour++;
-        minute = 0;
-      }
+startTimer();
+function startTimer() {
+    timerInterval = setInterval(function () {
+        timeDisplay();
+        second++;
+
+        if (second == 60) {
+            minute++;
+            second = 0;
+        }
+
+        if (minute == 60) {
+            hour++;
+            minute = 0;
+        }
     }, 1000);
-  };
+}
