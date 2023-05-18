@@ -94,11 +94,12 @@ let timerInterval;
 let second = 0, minute = 0, hour = 0;
 
 function timeDisplay() {
-    return timer.innerHTML =
+    timer.innerHTML =
         (hour ? hour + ':' : '') +
         (minute < 10 ? '0' + minute : minute) +
         ':' +
         (second < 10 ? '0' + second : second);
+    return timer.innerText;
 }
 
 startTimer();
