@@ -1,5 +1,5 @@
 // questions for quiz
-const quizQs = [
+let quizQs = [
     {
         question: "How many arches can you find in the picture?",
         image: "arches.jpg",
@@ -87,30 +87,18 @@ const image = document.getElementById("img");
 let currentQuestion = 0;
 let score = 0;
 
-loadQuestion(); //will not work when i put it in the startQuiz function???
+startQuiz(); 
 
-const shuffleArray = quizQs => {
-    for (let i = quizQs.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      const temp = quizQs[i];
-      quizQs[i] = quizQs[j];
-      quizQs[j] = temp;
-    }
-  }
-
+// starts quiz: shuffles and loads questions
 function startQuiz() {
-    // shuffleQuestions(); //shuffle doesn't work???
-    
+    shuffleQuestions(); 
     loadQuestion();
 }
 
-// function shuffleQuestions(quizQs) {
-    
-//     for(let i = quizQs.length; i > 0; i--) {
-//       const j = Math.floor(Math.random() * (i+1));
-//       [quizQs[i], quizQs[j]] = [quizQs[j], quizQs[i]];
-//     }
-// }
+// shuffles question order
+function shuffleQuestions() {
+    quizQs = quizQs.sort(() => Math.random() - 0.5);
+}
 
 // loads the next question
 function loadQuestion() {
