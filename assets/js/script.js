@@ -89,17 +89,28 @@ let score = 0;
 
 loadQuestion(); //will not work when i put it in the startQuiz function???
 
+const shuffleArray = quizQs => {
+    for (let i = quizQs.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = quizQs[i];
+      quizQs[i] = quizQs[j];
+      quizQs[j] = temp;
+    }
+  }
+
 function startQuiz() {
-    shuffleQuestions(); //shuffle doesn't work???
+    // shuffleQuestions(); //shuffle doesn't work???
+    
     loadQuestion();
 }
 
-function shuffleQuestions(quizQs) {
-    for(let i = quizQs.length; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i+1));
-      [quizQs[i], quizQs[j]] = [quizQs[j], quizQs[i]];
-    }
-}
+// function shuffleQuestions(quizQs) {
+    
+//     for(let i = quizQs.length; i > 0; i--) {
+//       const j = Math.floor(Math.random() * (i+1));
+//       [quizQs[i], quizQs[j]] = [quizQs[j], quizQs[i]];
+//     }
+// }
 
 // loads the next question
 function loadQuestion() {
