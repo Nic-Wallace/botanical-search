@@ -78,10 +78,10 @@ const quizQs = [
 const quiz = document.getElementById("quiz");
 const answerHTML = document.querySelectorAll(".answer");
 const questionHTML = document.getElementById("question");
-const questionA = document.getElementById("question-a");
-const questionB = document.getElementById("question-b");
-const questionC = document.getElementById("question-c");
-const questionD = document.getElementById("question-d");
+const answerA = document.getElementById("answer-a");
+const answerB = document.getElementById("answer-b");
+const answerC = document.getElementById("answer-c");
+const answerD = document.getElementById("answer-d");
 const nextButton = document.getElementById("next-btn");
 const image = document.getElementById("img");
 let currentQuestion = 0;
@@ -107,10 +107,10 @@ function loadQuestion() {
     const currentQuestionInput = quizQs[currentQuestion];
     image.src = `assets/images/${currentQuestionInput.image}`;
     questionHTML.innerText = currentQuestionInput.question;
-    questionA.innerText = currentQuestionInput.a;
-    questionB.innerText = currentQuestionInput.b;
-    questionC.innerText = currentQuestionInput.c;
-    questionD.innerText = currentQuestionInput.d;
+    answerA.innerText = currentQuestionInput.a;
+    answerB.innerText = currentQuestionInput.b;
+    answerC.innerText = currentQuestionInput.c;
+    answerD.innerText = currentQuestionInput.d;
 }
 
 // removes checks from radio buttons before next question
@@ -156,7 +156,7 @@ function proceedQuiz() {
     } else { 
         clearInterval(timerInterval);
         quiz.innerHTML = `
-        <h2>You answered ${score}/${quizQs.length} questions correctly</h2>
+        <h2>You got ${score}/${quizQs.length} questions correct!</h2>
         <button onclick="location.reload()">Restart</button>
         `;
     }
