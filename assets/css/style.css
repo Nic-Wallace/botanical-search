@@ -21,7 +21,6 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: Jacques Francois;
-
 }
 
 .heading {
@@ -30,6 +29,11 @@ body {
     border: 2px solid #FFA500;
     border-radius: 15px;
     font-family: Source Serif Pro;
+}
+
+.heading a {
+    text-decoration: none;
+    color: #000;
 }
 
 #home-page {
