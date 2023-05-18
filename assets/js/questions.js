@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 // questions for quiz
 let quizQs = [
     {

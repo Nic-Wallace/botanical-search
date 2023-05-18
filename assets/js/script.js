@@ -1,5 +1,4 @@
-
-
+/* jshint esversion: 11 */
 // variables for questions, next and running game
 const quiz = document.getElementById("quiz");
 const answerHTML = document.querySelectorAll(".answer");
