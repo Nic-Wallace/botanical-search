@@ -74,15 +74,18 @@ body {
     font-size: larger;
 }
 
-li {
-    list-style-type: none;
-}
 
 #answer-btns {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+
+/*align and style lists*/
+li {
+    list-style-type: none;
 }
 
 ul {
@@ -95,4 +98,8 @@ ul {
 ol > li {
     margin: 0.5em;
     list-style-type: circle;
+}
+
+.logo {
+    height: 25px;
 }
