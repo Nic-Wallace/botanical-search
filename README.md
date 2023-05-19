@@ -140,6 +140,13 @@ You can fork this repository by using the following steps:
 
 ### Content
 
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Daily Dev Tips](https://daily-dev-tips.com/posts/vanilla-javascript-timer/) | timer on quiz page | "Vanilla Javascript Timer" |
+| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
+| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
+| [Youtube](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1102s) | quiz | "Build A Quiz App With JavaScript" |
+
 ### Media
 
 ### Acknowledgements
