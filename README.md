@@ -149,6 +149,17 @@ You can fork this repository by using the following steps:
 
 ### Media
 
-### Acknowledgements
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [Flaticon](https://www.flaticon.com/free-icon/leaf_896651?term=botanical&page=1&position=6&origin=search&related_id=896651) | entire site | png icon | favicon on all pages, created by Freepik |
+| [NYCgo](https://www.nycgo.com/images/articles/9156/newyorkbotanicalgarden-christopherpostlewaite_crop__large.jpg) | quiz | image | lily pad question image |
+| [Only In Your State](https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2016/03/Thornden-Park-Rose-Garden-14500637563-e1457250894834.jpg) | quiz | image | arches question image |
+| [Tourism Media Italia](https://tourismmedia.italia.it/is/image/mitur/20210310154229-enit-veneto-padova-orto-botanico-1?wid=800&hei=500&fit=constrain,1&fmt=webp) | quiz | image | flowers question image |
+| [Architizer Blog](https://blog.architizer.com/wp-content/uploads/454-scaled.jpg) | quiz | image | waterfall question image |
+| [Timeout](https://media.timeout.com/images/105772112/750/562/image.jpg) | quiz | image | vertical garden question image |
+| [Frommers](https://www.frommers.com/system/media_items/attachments/000/868/556/s980/Frommers-New-York-City-Brooklyn-Botanical-Gardens-1190x768.jpg?1648359991) | quiz | image | people question image |
+| [Easy Reader News](https://easyreadernews.com/wp-content/uploads/2022/05/RB-South-Bay-Botanic-Garden-FLAMBOYANCE-19-1-1-1200x798.jpg) | quiz | image | flamingo question image |
+| [Gardeners Path](https://gardenerspath.com/wp-content/uploads/2023/04/Best-Self-Seeding-Perennials-Feature.jpg) | quiz | image | lupin question image |
+| [iStock Photo](https://media.istockphoto.com/id/1322495503/vector/monarch-butterfly-directional-watercolor-seamless-pattern.jpg?s=612x612&w=0&k=20&c=Er8-GK8jX6e7QWfzlNANE8dfEPDtdnMX13n9Sjp6Hvc=) | entire site | image | repeating background image |
 
-https://www.flaticon.com/free-icons/leaf Leaf icons created by Freepik - Flaticon
+### Acknowledgements
