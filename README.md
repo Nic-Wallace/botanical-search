@@ -163,3 +163,8 @@ You can fork this repository by using the following steps:
 | [iStock Photo](https://media.istockphoto.com/id/1322495503/vector/monarch-butterfly-directional-watercolor-seamless-pattern.jpg?s=612x612&w=0&k=20&c=Er8-GK8jX6e7QWfzlNANE8dfEPDtdnMX13n9Sjp6Hvc=) | entire site | image | repeating background image |
 
 ### Acknowledgements
+
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their amazing encouragement and support throughout the development of this project.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the community and support they have provided.
+- I would like to thank my partner Aaron, for believing in me, and supporting me while learning software development.
+- I would also like to thank my cat Rue, for always keeping me company while working on the project. Despite walking on the keybpard from time to time.
