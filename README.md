@@ -1,9 +1,9 @@
 # BOTANICAL SEARCH
 
-The aim of Botanical Search is to provide a fun challange to its users. The quiz asks users to use their keen eye to find items or features 
-of the botanical garden in the picture provided. The challange that Botanical Search provides for users will bring a sense of accomplishment 
+The aim of Botanical Search is to provide a fun challenge to its users. The quiz asks users to use their keen eye to find items or features 
+of the botanical garden in the picture provided. The challenge that Botanical Search provides for users will bring a sense of accomplishment 
 when they guess correctly, and if they don't succeed the first time, they can try again and again until they have succeeded. As well as being
-a fun quiz, this kind of challange enables users to exercies their brain which is important for a healthy lifestyle. The timer brings another
+a fun quiz, this kind of challenge enables users to exercises their brain which is important for a healthy lifestyle. The timer brings another
 element of competition to the quiz for users which makes it even more enjoyable.
 
 The target audience for Botanical search is adults of all ages who have an interest in nature, and especially in the botanical
@@ -42,7 +42,7 @@ The quiz is kept in the center of the page so everything is clearly visible to t
 
 - **Quiz Instructions**
 
-    - This section lets usesrs know what to expect of the quiz and how they can play it. The instructions are laid out in an easy to read 
+    - This section lets users know what to expect of the quiz and how they can play it. The instructions are laid out in an easy to read 
     font and list format which will be easy to follow for the user.
 
 ![screenshot](documentation/instructions.png)
@@ -50,7 +50,7 @@ The quiz is kept in the center of the page so everything is clearly visible to t
 - **Quiz Area**
 
     - The quiz area of Botanical Search contains the most important aspects of the quiz, that is the picture, the relevant
-    question and answers, and the next button to proceed with the quiz once an answer has been selected. the contents of the quiz area
+    question and answers, and the next button to proceed with the quiz once an answer has been selected. The contents of the quiz area
     has been laid out in the center of the page so it is easy for users to see everything they need to do in order.
 
 ![screenshot](documentation/quiz-area.png)
@@ -58,7 +58,7 @@ The quiz is kept in the center of the page so everything is clearly visible to t
 - **Timer**
 
     - The timer is displayed at the top of the quiz page, just above the quiz area. This is so that the user will see it starting once the
-    game is loaded and they will know that the quiz has begun. The user will be easily able to keep track of the time without having to 
+    game is loaded, and they will know that the quiz has begun. The user will be easily able to keep track of the time without having to 
     scroll on their device as it is displayed right above the quiz area.
     
 ![screenshot](documentation/timer.png)
@@ -67,7 +67,7 @@ The quiz is kept in the center of the page so everything is clearly visible to t
 
     - On completion of the quiz, the user is shown their final score and how long it took them to complete the quiz. They are also shown a
     restart button which allows them to start the quiz over again. The user will be able to see clearly how many questions they got right,
-    along with how long it took them. This is important feedback for the user once they hae completed the quiz. If they want to try again
+    along with how long it took them. This is important feedback for the user once they have completed the quiz. If they want to try again
     to beat their score or their time, the restart button is there.
     
 ![screenshot](documentation/score.png)
@@ -77,7 +77,7 @@ The quiz is kept in the center of the page so everything is clearly visible to t
 - Username
     - The user will be able to add their name which will be used throughout the quiz to make it feel more personal to the user.
 - Scoreboard
-    - A useful future feature would be adding a scoreboard at the end of the quiz where people can have their name and score displayed along with the time it took them. This would make up a leaderboard for further incentive to keep doing the quiz.
+    - A useful future feature would be adding a scoreboard at the end of the quiz where people can have their name and score displayed along with the time it took them. This would make up a leader board for further incentive to keep doing the quiz.
 
 ## Tools & Technologies Used
 
@@ -142,10 +142,10 @@ You can fork this repository by using the following steps:
 
 | Source | Location | Notes |
 | --- | --- | --- |
-| [Daily Dev Tips](https://daily-dev-tips.com/posts/vanilla-javascript-timer/) | timer on quiz page | "Vanilla Javascript Timer" |
+| [Daily Dev Tips](https://daily-dev-tips.com/posts/vanilla-javascript-timer/) | timer on quiz page | "Vanilla JavaScript Timer" |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Youtube](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1102s) | quiz | "Build A Quiz App With JavaScript" |
+| [YouTube](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1102s) | quiz | "Build A Quiz App With JavaScript" |
 
 ### Media
 
@@ -162,9 +162,9 @@ You can fork this repository by using the following steps:
 | [Gardeners Path](https://gardenerspath.com/wp-content/uploads/2023/04/Best-Self-Seeding-Perennials-Feature.jpg) | quiz | image | lupin question image |
 | [iStock Photo](https://media.istockphoto.com/id/1322495503/vector/monarch-butterfly-directional-watercolor-seamless-pattern.jpg?s=612x612&w=0&k=20&c=Er8-GK8jX6e7QWfzlNANE8dfEPDtdnMX13n9Sjp6Hvc=) | entire site | image | repeating background image |
 
-### Acknowledgements
+### Acknowledgments
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their amazing encouragement and support throughout the development of this project.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the community and support they have provided.
 - I would like to thank my partner Aaron, for believing in me, and supporting me while learning software development.
-- I would also like to thank my cat Rue, for always keeping me company while working on the project. Despite walking on the keybpard from time to time.
+- I would also like to thank my cat Rue, for always keeping me company while working on the project. Despite walking on the keyboard from time to time.
