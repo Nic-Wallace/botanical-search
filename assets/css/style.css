@@ -111,7 +111,7 @@ ol>li {
 }
 
 /* media queries */
-@media (min-width: 350px) {
+@media (min-width: 300px) {
 
     #quiz,
     #welcome {
@@ -121,11 +121,19 @@ ol>li {
     #img {
         max-width: 85vw;
     }
+
+    .heading {
+        font-size: x-large;
+    }
 }
 
 @media (min-width: 600px) {
     #img {
         max-width: 500px;
+    }
+
+    .heading {
+        font-size: xx-large;
     }
 }
 
