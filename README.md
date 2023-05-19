@@ -9,6 +9,8 @@ element of competition to the quiz for users which makes it even more enjoyable.
 The target audience for Botanical search is adults of all ages who have an interest in nature, and especially in the botanical
 gardens around the world.
 
+![screenshot](documentation/responsive.png)
+
 ## Features
 
 ### Existing Features
