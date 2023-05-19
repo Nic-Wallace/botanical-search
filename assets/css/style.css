@@ -1,15 +1,4 @@
-body {
-    background-image: url("../images/background-butterflies.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#img {
-    max-width: 650px;
-}
-
+/* global stylings */
 #quiz, #welcome {
     background-color: rgba(255,255,255,0.9);
     width: 700px;
@@ -21,6 +10,10 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: Jacques Francois;
+}
+
+.logo {
+    height: 25px;
 }
 
 .heading {
@@ -36,12 +29,32 @@ body {
     color: #000;
 }
 
+/* home page styling */
 #home-page {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-size: larger;
+}
+
+#click-here {
+    text-decoration: none;
+    color: #FF7900;
+    font-weight: bold;
+}
+
+/* quiz page stylings */
+body {
+    background-image: url("../images/background-butterflies.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img {
+    max-width: 650px;
 }
 
 .question-area {
@@ -60,12 +73,7 @@ body {
     margin: 10px;
 }
 
-#click-here {
-    text-decoration: none;
-    color: #FF7900;
-    font-weight: bold;
-}
-
+/* button styling */
 #next-btn, #restart-btn {
     background-color: #FFA500;
     font-family: Source Serif Pro;
@@ -74,16 +82,11 @@ body {
     font-size: larger;
 }
 
-
 #answer-btns {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-#restart-btn {
-
 }
 
 /*align and style lists*/
@@ -101,8 +104,4 @@ ul {
 ol > li {
     margin: 0.5em;
     list-style-type: circle;
-}
-
-.logo {
-    height: 25px;
 }
