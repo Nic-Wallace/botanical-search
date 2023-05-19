@@ -26,7 +26,7 @@
 
 .heading a {
     text-decoration: none;
-    color: #000;
+    color: #000000;
 }
 
 /* home page styling */
@@ -69,6 +69,8 @@ body {
     font-family: Source Serif Pro;
     background-color: #FFA500;
     padding: 10px;
+    font-size: larger;
+    border: 2px solid #000000;
     border-radius: 15px;
     margin: 10px;
 }
