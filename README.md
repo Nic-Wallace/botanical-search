@@ -74,7 +74,10 @@ The quiz is kept in the center of the page so everything is clearly visible to t
 
 ### Future Features
 
-A useful future feature would be adding a scoreboard at the end of the quiz where people can add their name and have their score displayed along with the time it took them to make up a leaderboard.
+- Username
+    - The user will be able to add their name which will be used throughout the quiz to make it feel more personal to the user.
+- Scoreboard
+    - A useful future feature would be adding a scoreboard at the end of the quiz where people can have their name and score displayed along with the time it took them. This would make up a leaderboard for further incentive to keep doing the quiz.
 
 ## Testing
 
