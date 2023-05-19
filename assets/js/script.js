@@ -84,7 +84,7 @@ function proceedQuiz() {
         quiz.innerHTML = `
         <h2>You got ${score}/${quizQs.length} questions correct!</h2>
         <h3>It took you ${totalTime}.</h3>
-        <button onclick="location.reload()">Restart</button>
+        <button id="restart-btn" onclick="location.reload()">Restart</button>
         `;
     }
 }
