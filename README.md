@@ -79,6 +79,17 @@ The quiz is kept in the center of the page so everything is clearly visible to t
 - Scoreboard
     - A useful future feature would be adding a scoreboard at the end of the quiz where people can have their name and score displayed along with the time it took them. This would make up a leaderboard for further incentive to keep doing the quiz.
 
+## Tools & Technologies Used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
+- [JavaScript](https://www.javascript.com) used for user interaction on the site.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Code Anywhere](https://app.codeanywhere.com/) used as a cloud-based IDE for development.
+
 ## Testing
 
 ## Deployment
