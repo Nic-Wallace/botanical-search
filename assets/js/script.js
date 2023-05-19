@@ -1,5 +1,5 @@
 /* jshint esversion: 11 */
-// variables for questions, next and running game
+// variables for questions, next button, running game, answers and score
 const quiz = document.getElementById("quiz");
 const answerHTML = document.querySelectorAll(".answer");
 const questionHTML = document.getElementById("question");
@@ -83,7 +83,7 @@ function proceedQuiz() {
         timer.style.display = "none";
         quiz.innerHTML = `
         <h2>You got ${score}/${quizQs.length} questions correct!</h2>
-        <h3>It took you ${totalTime}.</h3>
+        <h3>It took you ${totalTime}!</h3>
         <button id="restart-btn" onclick="location.reload()">Restart</button>
         `;
     }
@@ -93,6 +93,7 @@ const timer = document.getElementById('timer');
 let timerInterval;
 let second = 0, minute = 0, hour = 0;
 
+// sets what the timer is to display when called
 function timeDisplay() {
     timer.innerHTML =
         (hour ? hour + ':' : '') +
@@ -102,6 +103,7 @@ function timeDisplay() {
     return timer.innerText;
 }
 
+// starts the timer by calling timeDisplay and incrementing the seconds/ minutes/ hours accordingly
 startTimer();
 function startTimer() {
     timerInterval = setInterval(function () {

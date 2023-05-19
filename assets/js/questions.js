@@ -1,5 +1,5 @@
 /* jshint esversion: 11 */
-// questions for quiz
+// questions for quiz with corresponding image, answers and the correct answer
 let quizQs = [
     {
         question: "How many arches can you find in the picture?",
