@@ -65,7 +65,7 @@ let quizQs = [
         correct: "c",
     },
     {
-        question: "How many lilypads can you find in the picture?",
+        question: "How many lily pads can you find in the picture?",
         image: "lilypads.jpg",
         a: "29",
         b: "30",
