@@ -85,14 +85,27 @@ The quiz is kept in the center of the page so everything is clearly visible to t
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
 - [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [Git](https://git-scm.com) used for version control (`git add`, `git commit`, `git push`).
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Code Anywhere](https://app.codeanywhere.com/) used as a cloud-based IDE for development.
 
 ## Testing
 
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
 ## Deployment
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+- In the [GitHub repository](https://github.com/Nic-Wallace/botanical-search), navigate to the Settings tab.
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://nic-wallace.github.io/botanical-search)
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
 
 ## Credits
 
