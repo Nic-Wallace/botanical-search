@@ -11,6 +11,23 @@ gardens around the world.
 
 ![screenshot](documentation/responsive.png)
 
+## UX
+
+Botanical Search was designed around the colours of the monarch butterfly, which is frequently seen in botanical gardens. 
+The quiz is kept in the center of the page so everything is clearly visible to the user and there are no distractions away from the quiz.
+
+### Colour Scheme
+
+- `#000000` used for primary text.
+- `#FFA500` used for primary highlights.
+- `#FF7900` used for secondary highlights.
+
+### Typography
+
+- [Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro) was used for the primary headers and titles.
+
+- [Jacques Francois](https://fonts.google.com/specimen/Jacques+Francois) was used for all other secondary text.
+
 ## Features
 
 ### Existing Features
