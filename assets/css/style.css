@@ -1,6 +1,7 @@
 /* global stylings */
-#quiz, #welcome {
-    background-color: rgba(255,255,255,0.9);
+#quiz,
+#welcome {
+    background-color: rgba(255, 255, 255, 0.9);
     width: 700px;
     padding: 20px;
     border: 5px solid #FFA500;
@@ -76,7 +77,8 @@ body {
 }
 
 /* button styling */
-#next-btn, #restart-btn {
+#next-btn,
+#restart-btn {
     background-color: #FFA500;
     font-family: Source Serif Pro;
     border: 2px solid #FFA500;
@@ -98,18 +100,21 @@ li {
 
 ul {
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-direction: column;
     padding-left: 0;
 }
 
-ol > li {
+ol>li {
     margin: 0.5em;
     list-style-type: circle;
 }
 
+/* media queries */
 @media (min-width: 350px) {
-    #quiz, #welcome {
+
+    #quiz,
+    #welcome {
         max-width: 80vw;
     }
 
