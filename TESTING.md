@@ -47,8 +47,8 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| Xiaomi Redmi Note 10 Pro | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
-| Samsung Galaxy Tab A | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
+| Xiaomi Redmi Note 10 Pro | ![screenshot](documentation/responsive-mobile.jpg) | Works as expected |
+| Samsung Galaxy Tab A | ![screenshot](documentation/responsive-tablet.jpg) | Works as expected |
 | Desktop HP vs 12| ![screenshot](documentation/responsive-desktop.png) | Works as expected |
 | XL Monitor DELL2407WFPHC | ![screenshot](documentation/responsive-xl-monitor.png) | Works as expected |
 
