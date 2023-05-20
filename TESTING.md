@@ -40,3 +40,14 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
 | Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
 | Opera | ![screenshot](documentation/browser-opera.png) | Works as expected |
+
+## Responsiveness
+
+I've tested my deployed project on multiple devices to check for responsiveness issues.
+
+| Device | Screenshot | Notes |
+| --- | --- | --- |
+| Xiaomi Redmi Note 10 Pro | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
+| Samsung Galaxy Tab A | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
+| Desktop HP vs 12| ![screenshot](documentation/responsive-desktop.png) | Works as expected |
+| XL Monitor DELL2407WFPHC | ![screenshot](documentation/responsive-xl-monitor.png) | Works as expected |
