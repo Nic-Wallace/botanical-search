@@ -63,4 +63,19 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Quiz | Mobile | ![screenshot](documentation/lighthouse-quiz-mobile.png) | Few warnings |
 | Quiz | Desktop | ![screenshot](documentation/lighthouse-quiz-desktop.png) | Few warnings |
 
+## Bugs
+
+- JS timer stop function was not working despite trying several methods of stopping the time.
+
+    - To fix this, I added `clearInterval(timerInterval);` into the `proceedQuiz()` function as part of the `else` clause, that will stop the timer and display the score
+    if there are no more questions to display.
+
+- Quiz radio buttons aligntment was to the right and not inline with the rest of the page.
+
+    - To fix this, I tried applying different styles to the list items and their parent element, the style that worked was adding `padding-left: 0;` to the `ul` element.
+
+## Unfixed Bugs
+
+There are no remaining bugs that I am aware of.
+
 [Back to top](#)
