@@ -168,3 +168,5 @@ You can fork this repository by using the following steps:
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the community and support they have provided.
 - I would like to thank my partner Aaron, for believing in me, and supporting me while learning software development.
 - I would also like to thank my cat Rue, for always keeping me company while working on the project. Despite walking on the keyboard from time to time.
+
+[Back to top](#)

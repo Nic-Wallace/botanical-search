@@ -62,3 +62,5 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Few warnings |
 | Quiz | Mobile | ![screenshot](documentation/lighthouse-quiz-mobile.png) | Few warnings |
 | Quiz | Desktop | ![screenshot](documentation/lighthouse-quiz-desktop.png) | Few warnings |
+
+[Back to top](#)
