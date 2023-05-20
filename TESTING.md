@@ -51,3 +51,14 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Samsung Galaxy Tab A | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
 | Desktop HP vs 12| ![screenshot](documentation/responsive-desktop.png) | Works as expected |
 | XL Monitor DELL2407WFPHC | ![screenshot](documentation/responsive-xl-monitor.png) | Works as expected |
+
+## Lighthouse Audit
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page | Size | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
+| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Few warnings |
+| Quiz | Mobile | ![screenshot](documentation/lighthouse-quiz-mobile.png) | Few warnings |
+| Quiz | Desktop | ![screenshot](documentation/lighthouse-quiz-desktop.png) | Few warnings |
